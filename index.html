@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>安価でゲーム作る</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <h1>安価でゲーム作る</h1>
+        <p>ジャンル：育成<br />タイトル：うんこ</p>
+        <div id="canvas_wrapper">
+            <canvas width="400" height="300" id="canvas"></canvas>
+        </div>
+        <button class="spb" id="lButton">←</button>
+        <button class="spb" id="rButton">→</button>
+        <button class="spb" id="uButton">↑</button>
+        <button class="spb" id="dButton">↓</button>
+        <button class="spb" id="cButton">C</button>
+        <button class="spb" id="sButton">SP</button>
+        <button id="smartPhoneButton">スマホ用ボタン表示</button>
+        <h2>■ 操作方法 ■</h2>
+        <p>WASD・矢印 : 移動<br />Space : 決定<br />C : キャンセル<br /></p>
+        <script src="engine.js"></script>
+        <script src="input_event.js"></script>
+        <script src="parameters.js"></script>
+        <script src="unko.js"></script>
+        <script src="scene/chara_select.js"></script>
+        <script src="scene/training.js"></script>
+        <script src="scene/title.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
