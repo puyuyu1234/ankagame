@@ -12,7 +12,7 @@ smartPhoneButton.addEventListener("click", () => {
 });
 
 const activeButtons = new Map();
-const keys = ["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown", "z", "r", " ", "Escape"];
+const keys = ["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown", "c", " "];
 document.querySelectorAll(".spb").forEach((b, k) => {
     b.addEventListener("contextmenu", (event) => {
         event.preventDefault();
